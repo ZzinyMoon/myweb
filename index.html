@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>진달래꽃</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+      }
+
+      body {
+        font-family: "FlowerRoad", serif;
+        background: white;
+        color: #333;
+        line-height: 1.9;
+      }
+
+      .container {
+        width: 100vw;
+        max-width: 430px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .header {
+        text-align: center;
+        padding: 20px 20px;
+      }
+
+      .author {
+        color: #b84b6b;
+        font-size: 28px;
+        text-align: center;
+        padding-left: 100px;
+      }
+
+      .title {
+        font-size: 42px;
+        color: #c03967;
+        margin: 10px 0;
+      }
+
+      .box {
+        padding: 30px;
+        border-radius: 20px;
+
+        background: linear-gradient(to bottom, #fff5f8, #ffffff);
+
+        border: 1px solid #e8e8e8;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      }
+
+      .poem {
+        white-space: pre-line;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      @media (min-width: 768px) {
+        .container {
+          max-width: 900px;
+        }
+
+        .title {
+          font-size: 60px;
+        }
+
+        .card {
+          max-width: 700px;
+          margin: auto;
+        }
+      }
+
+      @font-face {
+        font-family: "FlowerRoad";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/SangSangFlowerRoad.woff")
+          format("woff");
+        font-weight: normal;
+        font-display: swap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="header">
+          <h1 class="title">진달래꽃</h1>
+          <p class="author">김소월</p>
+        </div>
+        <div class="poem">
+          <p>나 보기가 역겨워 가실 때에는 말없이 고이 보내 드리오리다</p>
+          <p>영변에 약산 진달래꽃 아름 따다 가실 길에 뿌리오리다</p>
+          <p>가시는 걸음 걸음 놓인 그 꽃을 사뿐히 즈려 밟고 가시옵소서</p>
+          <p>나 보기가 역겨워 가실 때에는 죽어도 아니 눈물 흘리오리다</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
